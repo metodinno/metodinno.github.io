@@ -102,7 +102,7 @@ a{
 .pbot{
     color: rgb(38,164,227);
     position: fixed;
-    bottom: 10px;
+    margin-bottom: 10px;
     margin-left: 50px;
 }
 .pbot,.btn1bot{
