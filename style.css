@@ -95,3 +95,7 @@ a{
 .dbot{
     align-content: center;
 }
+.btn1bot{
+    border: none;
+    background-color: white;
+}
