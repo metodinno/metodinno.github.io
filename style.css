@@ -104,3 +104,14 @@ a{
 .pbot,.btn1bot{
     display: inline-block;
 }
+.button{
+    z-index: 1;
+}
+.button,.container{
+    display: inline-block;
+}
+.container{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
