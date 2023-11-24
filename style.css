@@ -106,6 +106,7 @@ a{
 }
 .button{
     z-index: 1;
+    left-margin 40%;
 }
 .button,.container{
     display: inline-block;
