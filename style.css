@@ -92,17 +92,8 @@ a{
     position: fixed;
     bottom: 10px;
 }
-.dbot{
-    align-content: center;
-    background-color: white;
-}
 .btn1bot{
     border: none;
-}
-.ddbot{
-    background-color: white;
-    display: block;
-    padding: 50px 100%;
 }
 .pbot{
     color: rgb(38,164,227);
