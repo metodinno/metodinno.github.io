@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Метод библиотека</title>
+        <meta charset="UTF-8" lang="ru">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="fp" id="fp">
+            <div class="hh1">
+                <h1 class="hellop" id="hellop">
+                    Методическая библиотека
+                </h1>
+            </div>
+            <div class="d1">
+                <p class="a1" onclick="books()">
+                    &#x2022; Учебники и учебные книги
+                </p>
+                <br>
+                <p class="a1" onclick="kryzhki()">&#x2022; Кружки по интересам</p>
+            </div>
+        </div>
+        <script>
+            function books(){
+                window.location.href = 'books.html';
+            }
+            function kryzhki(){
+                window.location.href='kryzh.html';
+            }
+        </script>
+    </body>
+</html>
