@@ -1,0 +1,83 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.hh1{
+    align-content: center;
+}
+.a1{
+    display: inline-block;
+}
+.btn1{
+    height: 20px;
+    width: 20px;
+}
+.d1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.par1in,.par2in{
+    position: absolute;
+}
+.par1in,.par1p{
+    display: inline-block;
+}
+.par2in,.par2p{
+    display: inline-block;
+}
+.par1p,.par2p,.par3p,.par4p{
+    font-weight: bold;
+}
+.par3p,.par3in{
+    display: inline-block;
+}
+.par4p,.par4in{
+    display: inline-block;
+}
+p,a,li{
+    font-weight: bold;
+}
+.par5p,.par5in{
+    display: inline-block;
+}
+.h32{
+    font-weight: 1200;
+}
+.par6p,.par6in{
+    display: inline-block;
+}
+.par1in,.par2in,.par3in,.par4in,.par5in,.par6in,.par1p,.par2p,.par3p,.par4p,.par5p,.par6p,.par7p,.par7in,.par8p,.par8in,.par9p,.par9in,.par10p,.par10in{
+    user-select: none;
+}
+.par7p,.par7in{
+    display: inline-block;
+}
+p[onclick]{
+    font-weight: bolder;
+}
+p[onclick]:hover{
+    cursor: pointer;
+}
+.par8p,.par8in{
+    display: inline-block;
+}
+.par9p,.par9in{
+    display: inline-block;
+}
+.par10in,.par10p{
+    display: inline-block;
+}
+.par1p,.par2p,.par3p,.par4p,.par5p,.par6p,.par7p,.par8p,.par9p,.par10p,.par11p{
+    font-weight: 900;
+}
+.par11p,.par11in{
+    display: inline-block;
+}
+.greetings{
+    align-content: center;
+}
+.p1{
+    font-size: 25px;
+}
+p{
+    user-select: none;
+}
