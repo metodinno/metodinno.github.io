@@ -101,6 +101,8 @@ a{
 }
 .ddbot{
     background-color: white;
+    display: block;
+    padding: 50px 100%;
 }
 .pbot{
     color: rgb(38,164,227);
