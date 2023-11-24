@@ -162,6 +162,48 @@
                     </li>
                 </ul>
             </div>
+            <div class="gr9">
+                <p class="p1" onclick="gr9()">9 классы</p>
+                <ul id="ul9" hidden>
+                    <li>
+                        <p onclick="pn9()">Понедельник</p>
+                        <ul id="ulpn9" hidden>
+                            <li>
+                                Разговорный клуб английского языка&nbsp;&nbsp;&nbsp;&nbsp;Каб.3.11.&nbsp;&nbsp;&nbsp;&nbsp;Яценко А.И.
+                            </li>
+                            <li>
+                                Олимпиадный русский&nbsp;&nbsp;&nbsp;&nbsp;Каб.2.10.&nbsp;&nbsp;&nbsp;&nbsp;Тихонов А.А.
+                            </li>
+                            <li>
+                                Олимпиадная физика&nbsp;&nbsp;&nbsp;&nbsp;Каб.2.5.&nbsp;&nbsp;&nbsp;&nbsp;Валеева Л.Р.
+                            </li>
+                            <li>
+                                Олимпиадная информатика&nbsp;&nbsp;&nbsp;&nbsp;Каб.2.11.&nbsp;&nbsp;&nbsp;&nbsp;Парфенов И. А.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p onclick="vt9()">Вторник</p>
+                        <ul id="ulvt9" hidden>
+                            <li>
+                                ОГЭ: математика&nbsp;&nbsp;&nbsp;&nbsp;Каб.3.3.&nbsp;&nbsp;&nbsp;&nbsp;Каранаева Л.М.
+                            </li>
+                            <li>
+                                Физическая культура&nbsp;&nbsp;&nbsp;&nbsp;Спорт зал&nbsp;&nbsp;&nbsp;&nbsp;Бурдин И.С.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </div>
         </div>
         <script>
             function gr7(){
@@ -174,6 +216,14 @@
             }
             function gr8(){
                 let ul=document.querySelector("#ul8");
+                if(ul.hasAttribute("hidden","")){
+                    ul.removeAttribute("hidden");
+                }else{
+                    ul.setAttribute("hidden","");
+                }
+            }
+            function gr9(){
+                let ul=document.querySelector("#ul9");
                 if(ul.hasAttribute("hidden","")){
                     ul.removeAttribute("hidden");
                 }else{
@@ -196,6 +246,14 @@
                     ul.setAttribute("hidden","");
                 }
             }
+            function pn9(){
+                let ul=document.querySelector("#ulpn9");
+                if(ul.hasAttribute("hidden")){
+                    ul.removeAttribute("hidden");
+                }else{
+                    ul.setAttribute("hidden","");
+                }
+            }
             function vt7(){
                 let ul=document.querySelector("#ulvt7");
                 if(ul.hasAttribute("hidden")){
@@ -206,6 +264,14 @@
             }
             function vt8(){
                 let ul=document.querySelector("#ulvt8");
+                if(ul.hasAttribute("hidden")){
+                    ul.removeAttribute("hidden");
+                }else{
+                    ul.setAttribute("hidden","");
+                }
+            }
+            function vt9(){
+                let ul=document.querySelector("#ulvt9");
                 if(ul.hasAttribute("hidden")){
                     ul.removeAttribute("hidden");
                 }else{
