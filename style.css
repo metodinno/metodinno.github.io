@@ -81,3 +81,6 @@ p[onclick]:hover{
 p{
     user-select: none;
 }
+a{
+    text-decoration: none;
+}
