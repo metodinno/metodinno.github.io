@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Кружки</title>
+        <meta charset="UTF-8" lang="ru">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <a href="index.html">Назад</a>
+        <div class="main">
+            <div class="greetings">
+                <h1>
+                    Кружки по интересам
+                </h1>
+            </div>
+            <br>
+            <br>
+            <div class="gr7">
+                <p onclick="gr7()" class="p1">
+                    7 классы
+                </p>
+                <ul hidden id="ul7">
+                    <li>
+                        <p onclick="pn7()">Понедельник</p>
+                        <ul id="ulpn7" hidden>
+                            <li>
+                                ОБЖ
+                            </li>
+                            <li>
+                                Олимпиадная математика
+                            </li>
+                            <li>
+                                Олимпиадная экономика
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p onclick="ct7()">Четверг</p>
+                        <ul id="ulct7" hidden>
+                            <li>
+                                Керамика
+                            </li>
+                            <li>
+                                Азбука права
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p onclick="pt7()">Пятница</p>
+                        <ul id="ulpt7" hidden>
+                            <li>
+                                Олимпиадная физика
+                            </li>
+                            <li>
+                                3д моделирование
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            function gr7(){
+                let ul=document.querySelector("#ul7");
+                if(ul.hasAttribute("hidden","")){
+                    ul.removeAttribute("hidden");
+                }else{
+                    ul.setAttribute("hidden","");
+                }
+            }
+            function pn7(){
+                let ul=document.querySelector("#ulpn7");
+                if(ul.hasAttribute("hidden")){
+                    ul.removeAttribute("hidden");
+                }else{
+                    ul.setAttribute("hidden","");
+                }
+            }
+            function ct7(){
+                let ul=document.querySelector("#ulct7");
+                if(ul.hasAttribute("hidden")){
+                    ul.removeAttribute("hidden");
+                }else{
+                    ul.setAttribute("hidden","");
+                }
+            }
+            function pt7(){
+                let ul=document.querySelector("#ulpt7");
+                if(ul.hasAttribute("hidden")){
+                    ul.removeAttribute("hidden");
+                }else{
+                    ul.setAttribute("hidden","");
+                }
+            }
+        </script>
+    </body>    
+</html>
