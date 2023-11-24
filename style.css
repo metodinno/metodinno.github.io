@@ -99,3 +99,9 @@ a{
     border: none;
     background-color: white;
 }
+.pbot{
+    color: rgb(38,164,227);
+}
+.pbot,.btn1bot{
+    display: inline-block;
+}
