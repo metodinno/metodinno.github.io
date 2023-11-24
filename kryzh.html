@@ -194,13 +194,34 @@
                         </ul>
                     </li>
                     <li>
-                        
+                        <p onclick="sr9()">Среда</p>
+                        <ul id="ulsr9" hidden>
+                            <li>
+                                -
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        
+                        <p onclick="ct9()">Четверг</p>
+                        <ul id="ulct9" hidden>
+                            <li>
+                                Олимпиадная математика&nbsp;&nbsp;&nbsp;&nbsp;Каб.3.3.&nbsp;&nbsp;&nbsp;&nbsp;Шилов Н. В., Чам Ань
+                            </li>
+                            <li>
+                                Физика&nbsp;&nbsp;&nbsp;&nbsp;Каб.3.9.&nbsp;&nbsp;&nbsp;&nbsp;-
+                            </li>
+                        </ul>
                     </li>
                     <li>
-                        
+                        <p onclick="pt9()">Пятница</p>
+                        <ul id="ulpt9" hidden>
+                            <li>
+                                «С любовью к математике»&nbsp;&nbsp;&nbsp;&nbsp;Каб.3.11.&nbsp;&nbsp;&nbsp;&nbsp;Шилов Н. В.
+                            </li>
+                            <li>
+                                ТЮГ&nbsp;&nbsp;&nbsp;&nbsp;Каб.3.6.&nbsp;&nbsp;&nbsp;&nbsp;Шилов Н. В.
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -297,6 +318,14 @@
                     ul.setAttribute("hidden","");
                 }
             }
+            function sr9(){
+                let ul=document.querySelector("#ulsr9");
+                if(ul.hasAttribute("hidden")){
+                    ul.removeAttribute("hidden");
+                }else{
+                    ul.setAttribute("hidden","");
+                }
+            }
             function ct7(){
                 let ul=document.querySelector("#ulct7");
                 if(ul.hasAttribute("hidden")){
@@ -313,6 +342,14 @@
                     ul.setAttribute("hidden","");
                 }
             }
+            function ct9(){
+                let ul=document.querySelector("#ulct9");
+                if(ul.hasAttribute("hidden")){
+                    ul.removeAttribute("hidden");
+                }else{
+                    ul.setAttribute("hidden","");
+                }
+            }
             function pt7(){
                 let ul=document.querySelector("#ulpt7");
                 if(ul.hasAttribute("hidden")){
@@ -323,6 +360,14 @@
             }
             function pt8(){
                 let ul=document.querySelector("#ulpt8");
+                if(ul.hasAttribute("hidden")){
+                    ul.removeAttribute("hidden");
+                }else{
+                    ul.setAttribute("hidden","");
+                }
+            }
+            function pt9(){
+                let ul=document.querySelector("#ulpt9");
                 if(ul.hasAttribute("hidden")){
                     ul.removeAttribute("hidden");
                 }else{
