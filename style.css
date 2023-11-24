@@ -84,3 +84,10 @@ p{
 a{
     text-decoration: none;
 }
+.bot{
+    position: fixed;
+    bottom: 10px;
+}
+.dbot{
+    align-content: center;
+}
