@@ -105,8 +105,8 @@ a{
     display: inline-block;
 }
 .button{
-    z-index: 1;
-    left-margin 40%;
+    width: 910px;
+    margin: auto;
 }
 .button,.container{
     display: inline-block;
