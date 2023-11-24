@@ -124,3 +124,7 @@ button{
 body{
     background-color: white;
 }
+.dbot{
+    position: fixed;
+    bottom: 10px;
+}
