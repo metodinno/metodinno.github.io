@@ -114,4 +114,9 @@ a{
     background-color: white;
     height: 50px;
     width: 100%;
+    bottom: 10px;
+    z-index:0;
+}
+p{
+    z-index:-1;
 }
