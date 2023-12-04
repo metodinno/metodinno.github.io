@@ -5,9 +5,7 @@
             Книги
         </title>
         <script src="https://telegram.org/js/telegram-web-app.js">
-            let tg=window.Telegram.WebApp;
-            tg.expand();
-            tg.MainButton.text = "Закрыть";
+            
         </script>
         <meta charset="UTF-8" lang="ru">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -227,6 +225,9 @@
             </div>
         </div>
         <script>
+            let tg=window.Telegram.WebApp;
+            tg.expand();
+            tg.MainButton.text = "Закрыть";
             function showRu(){
                 let ul=document.querySelector("#uru");
                 if(ul.hasAttribute("hidden","")){
