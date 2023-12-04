@@ -6,6 +6,11 @@
             let tg = window.Telegram.WebApp;
             tg.expand();
             tg.MainButton.text = "Закрыть";
+
+            function exit()
+            {
+                tg.close();
+            }
         </script>
         <meta charset="UTF-8" lang="ru">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,6 +23,9 @@
     <body>
         <img src="https://edu.innolyceum.pro/moodle/pluginfile.php/1/core_admin/logocompact/300x300/1612253120/Logo.png" height="80" alt="Logo">
         <br>
+        <div class="ExApBtn">
+            <p class="exp" onclick="exit()">Выйти</p>
+        </div>
         <div class="fp" id="fp">
             <div class="hh1">
                 <h1 class="hellop" id="hellop">
