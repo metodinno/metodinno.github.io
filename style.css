@@ -140,3 +140,7 @@ body{
 .cross{
     font-size: 10px;
 }
+.ExApBtn{
+    display: inline-block;
+    margin-left: 30px;
+}
