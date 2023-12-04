@@ -130,9 +130,13 @@ body{
     display: block;
     margin-bottom: 10px;
 }
-.exp{
+.exp,.cross{
     color: rgb(0, 0, 231);
+    display: inline-block;
 }
-.exp:hover{
+.exp:hover,.cross:hover{
     cursor: pointer;
+}
+.cross{
+    font-size: 10px;
 }
