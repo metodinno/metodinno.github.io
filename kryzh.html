@@ -2,7 +2,10 @@
 <html>
     <head>
         <title>Кружки</title>
-        <script src="https://telegram.org/js/telegram-web-app.js"></script>
+        <script src="https://telegram.org/js/telegram-web-app.js">
+            let tg=window.Telegram.WebApp;
+            tg.MainButton.text = "Закрыть";
+        </script>
         <meta charset="UTF-8" lang="ru">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="https://edu.innolyceum.pro/moodle/pluginfile.php/1/core_admin/logocompact/300x300/1612253120/Logo.png">
