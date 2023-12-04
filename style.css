@@ -134,7 +134,7 @@ body{
     color: rgb(0, 0, 231);
     display: inline-block;
 }
-.exp:hover,.cross:hover{
+.exp:hover,.cross:hover,.ExApBtn:hover{
     cursor: pointer;
 }
 .cross{
