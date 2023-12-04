@@ -131,7 +131,7 @@ body{
     margin-bottom: 10px;
 }
 .exp{
-    color: blue;
+    color: rgb(0, 0, 231);
 }
 .exp:hover{
     cursor: pointer;
